@@ -1,29 +1,29 @@
 GET http://localhost:5267/games
 
 ###
-http://localhost:5267/games/5
+http://localhost:5267/games/3
 
 ###
 POST http://localhost:5267/games
 Content-Type: application/json
 
 {
-    "Name": "Super Mario Brois. Wonder",
-    "GenreId": 3,
-    "Price": 59.99,
-    "releaseDate": "2023-10-20"
+    "Name": "test game",
+    "GenreId": 1,
+    "Price": 9.99,
+    "releaseDate": "1991-02-01"
 }
 
 ###
-PUT http://localhost:5267/games/5
+PUT http://localhost:5267/games/2
 Content-Type: application/json
 
 {
     "Name": "Street Fighter II Turbo",
-    "Genre": "Fighting",
-    "Price": 9.99,
-    "releaseDate": "1997-07-15"
+    "GenreId": 1,
+    "Price": 19.99,
+    "releaseDate": "1991-02-01"
 }
 
 ###
-DELETE http://localhost:5267/games/4
+DELETE http://localhost:5267/games/3
