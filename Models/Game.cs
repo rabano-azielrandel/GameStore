@@ -10,7 +10,7 @@ public class Game
 
     public Genre? Genre { get; set; }
 
-    public int GenereID { get; set; }
+    public int GenreId { get; set; }
 
     public decimal Price { get; set; }
 
